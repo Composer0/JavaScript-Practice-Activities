@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(12, 19, 37);
+    display: flex;
+    justify-content:center;
+}
+
+.box {
+    margin-top: 50%;
+    align-content: center;
+    background-image: linear-gradient(to right, red, blue);
+    color: white;
+    font-size: 5rem;
+    width: 20rem;
+    height: 20rem;
+    border-style: double;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background: black;
+}
