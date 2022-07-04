@@ -32,5 +32,5 @@ const grades = students.map((textDontMatter2 => textDontMatter2.grade));
 // console.log(names, grades);
 
 box.addEventListener('click', (e) => {
-    window.alert("These People:" + names+ "Have These Grades..." + grades);
+    window.alert("These People: " + names+ " Have These Grades... " + grades);
 })
